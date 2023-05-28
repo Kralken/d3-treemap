@@ -1,3 +1,6 @@
-import * as d3 from 'd3';
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App.js';
 
-d3.select('body').append('div').text('test');
+const root = createRoot(document.getElementById('root'));
+root.render(<App />);

@@ -1,0 +1,18 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#tooltip {
+  position: absolute;
+  transform: translate(+15px, -50%);
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 5px;
+}
